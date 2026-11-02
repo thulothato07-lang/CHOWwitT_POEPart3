@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thulothato07-lang.github.io/CHOWwit_T-Clothing/sitemap.xml

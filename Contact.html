@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | CHOWwit_T Clothing, Pretoria</title>
+    <meta name="description" content="Contact CHOWwit_T Clothing in Pretoria. Send us a message, find our address on the map, or reach us by email and telephone.">
+    <meta name="keywords" content="contact CHOWwit_T, clothing store Pretoria, Francis Baard Street">
+    <meta name="robots" content="index, follow">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="theme-color" content="#111111">
+    <link rel="canonical" href="https://thulothato07-lang.github.io/CHOWwit_T-Clothing/contact.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="CHOWwit_T Clothing">
+    <meta property="og:title" content="Contact Us | CHOWwit_T Clothing, Pretoria">
+    <meta property="og:description" content="Contact CHOWwit_T Clothing in Pretoria. Send us a message, find our address on the map, or reach us by email and telephone.">
+    <meta property="og:url" content="https://thulothato07-lang.github.io/CHOWwit_T-Clothing/contact.html">
+    <meta property="og:image" content="https://thulothato07-lang.github.io/CHOWwit_T-Clothing/images/chowwit-t-brand-banner.png">
+    <link rel="stylesheet" href="css_assets/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+<script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <img src="images/IndexImages.png" alt="CHOWwit_T Clothing Logo">
+        <p class="brand">Contact Us At</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="Service.html">Services</a>
+            <a href="contact.html">Contacts</a>
+            <a href="enquiries.html">Enquiry</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact CHOWwit_T Clothing</h1>
+        <div class="contact-details">
+            <div class="contact-copy">
+                <p>At <b><i>CHOWwit_T Clothing</i></b>, we are committed to providing the best shopping experience for our customers, hence why we would be glad to hear from you.</p>
+                <p>To get in <b>Contact</b>, use the information below:</p>
+            </div>
+            <img src="images/contact-us.png" alt="Contact Image">
+        </div>
+
+        <div class="contact-info">
+            <p><b>Email:</b> info@chowwit_t.com</p>
+            <p><b>Telephone:</b> +27 23 456 7890</p>
+            <p><b>Address:</b> 123 Francis Baard street, Pretoria, South Africa</p>
+        </div>
+
+        <section>
+            <h2>Find Us</h2>
+            <div id="map" role="region" aria-label="Map showing the CHOWwit_T Clothing address in Pretoria">
+                <noscript><p>Enable JavaScript to see the map. We are at 123 Francis Baard Street, Pretoria.</p></noscript>
+            </div>
+        </section>
+
+        <section class="enquiry-container">
+            <h2>Send Us a Message</h2>
+            <form class="enquiry-form" id="contact-form" action="mailto:info@chowwit_t.com" method="post" enctype="text/plain" novalidate>
+                <label for="c-name">Full Name</label>
+                <input type="text" id="c-name" name="name" placeholder="Enter your full name" minlength="2" maxlength="60" autocomplete="name" required>
+
+                <label for="c-email">Email Address</label>
+                <input type="email" id="c-email" name="email" placeholder="Enter your email" autocomplete="email" required>
+
+                <label for="c-phone">Phone Number (optional)</label>
+                <input type="tel" id="c-phone" name="phone" placeholder="e.g. 072 123 4567" pattern="(\+27|0)[1-9][0-9 \-]{8,12}" autocomplete="tel">
+
+                <label for="c-type">Type of Message</label>
+                <select id="c-type" name="type" required>
+                    <option value="">Choose one…</option>
+                    <option>General Message</option>
+                    <option>Feedback</option>
+                    <option>Complaint</option>
+                    <option>Other</option>
+                </select>
+
+                <label for="c-message">Message</label>
+                <textarea id="c-message" name="message" rows="6" placeholder="Type your message here..." minlength="10" maxlength="500" required></textarea>
+
+                <button type="submit" class="btn">Prepare Email</button>
+            </form>
+            <div id="contact-response" class="response" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="Service.html">Services</a>
+            <a href="contact.html">Contacts</a>
+            <a href="enquiries.html">Enquiry</a>
+        </nav>
+        <p>&copy; 2026 CHOWwit_T Clothing. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
